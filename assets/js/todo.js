@@ -17,6 +17,6 @@ $("input[type='text']").keypress(function(event){
 	{
 		var text=$(this).val();
 		$(this).val("");
-		$("ul").append("<li><span>X</span> " + text +"</li>");
+		$("ul").append("<li><span><i class='fas fa-trash'></i></span> " + text +"</li>");
 	}
 });
